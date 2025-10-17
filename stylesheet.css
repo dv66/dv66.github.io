@@ -1,129 +1,25 @@
-.cormorant-garamond-light {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: normal;
-}
+/* ================================================
+   LaTeX Default Font Setup (Computer Modern)
+   Source: https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts
+   ================================================ */
 
-.cormorant-garamond-regular {
-  font-family: "Cormorant Garamond", serif;
+/* Import full Computer Modern font family */
+@import url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css');
+
+/* ===== Global text and layout ===== */
+html, body {
+  font-family: "Computer Modern Serif", serif;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
+  color: #000;
+  background-color: #fff;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
 
-.cormorant-garamond-medium {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.cormorant-garamond-semibold {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.cormorant-garamond-bold {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.cormorant-garamond-light-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.cormorant-garamond-regular-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.cormorant-garamond-medium-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.cormorant-garamond-semibold-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.cormorant-garamond-bold-italic {
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
+/* ===== Links ===== */
 a {
   color: #1772d0;
   text-decoration: none;
@@ -135,49 +31,61 @@ a:hover {
   text-decoration: none;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Cormorant Garamond', Verdana, Helvetica, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Computer Modern Serif", serif;
+  font-weight: 700;
+  color: #000;
+  margin-top: 1.2em;
+  margin-bottom: 0.4em;
 }
 
-/* strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 20px;
-} */
+h1 { font-size: 40px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
 
-strong {
-  font-family: 'Cormorant Garamond', Verdana, Helvetica, sans-serif;
+/* ===== Paragraphs and text ===== */
+p, td, th, tr {
+  font-family: "Computer Modern Serif", serif;
   font-size: 20px;
-  font-weight: bolder;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 0 1em 0;
 }
 
-h2 {
+/* ===== Bold & Italic ===== */
+strong, b {
+  font-family: "Computer Modern Serif", serif;
+  font-weight: 700;
+}
+
+em, i {
+  font-family: "Computer Modern Serif", serif;
+  font-style: italic;
+}
+
+/* ===== Name and Titles ===== */
+.name {
+  font-family: "Computer Modern Serif", serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-top: 20px;
   margin: 0;
-  font-family: 'Cormorant Garamond', Verdana, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 30px;
 }
 
 .papertitle {
-  font-family: 'Cormorant Garamond', Verdana, Helvetica, sans-serif;
+  font-family: "Computer Modern Serif", serif;
   font-size: 20px;
   font-weight: 700;
 }
 
-.name {
-  font-family: 'Cormorant Garamond', Verdana, Helvetica, sans-serif;
-  font-weight: 500;
-  padding-top: 20px;
-  margin: 0;
-  font-size: 45px;
+/* ===== Highlight ===== */
+span.highlight {
+  background-color: #ffffd0;
 }
 
+/* ===== Images & Fade Effects ===== */
 .one {
   width: 160px;
   height: 160px;
@@ -199,6 +107,64 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+/* ===== Tables ===== */
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 6px 10px;
+}
+
+/* ===== Code / Monospace (optional) ===== */
+code, pre {
+  font-family: "Computer Modern Typewriter", monospace;
+  font-size: 16px;
+  background: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* ===== Optional: Math (KaTeX/MathJax style match) ===== */
+.katex, .math {
+  font-family: "Computer Modern Serif", serif;
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 36px;
+  }
+}
+
+
+/* ================================================
+   Global LaTeX-Style Justification
+   ================================================ */
+
+/* Apply justified alignment to all text-containing elements */
+body, td, th, tr, p, li, div, span {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+/* Keep headers and titles centered for aesthetics */
+h1, h2, h3, h4, h5, h6, .name {
+  text-align: center !important;
+  text-justify: none;
+}
+
+/* Preserve alignment for special sections (like paper titles and links) */
+.papertitle, a, strong, em {
+  text-align: left;
+  text-justify: none;
+}
+
+/* Optional: Slight line-height for readability */
+p, td, li {
+  line-height: 1.6;
 }
